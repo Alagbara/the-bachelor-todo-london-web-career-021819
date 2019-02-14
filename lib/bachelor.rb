@@ -59,7 +59,7 @@ def get_average_age_for_season(data, season)
       
    data[season].each do |values|
          #binding.pry
-        age += values["age"].to_i
+        age += values["age"].to_f
         counter +=1 
   end
   return (age/counter).round
