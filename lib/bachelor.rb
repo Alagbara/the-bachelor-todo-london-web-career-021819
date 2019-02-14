@@ -63,7 +63,7 @@ def get_average_age_for_season(data, season)
         age += info["age"].to_i
         counter +=1 
       
-      end
+    
     end
     binding.pry
   end
