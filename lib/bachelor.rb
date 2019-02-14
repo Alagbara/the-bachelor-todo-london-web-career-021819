@@ -57,7 +57,7 @@ def get_average_age_for_season(data, season)
       age = 0 
       counter = 0 
   
-    data[season].each do |season|
+    data[season].each do |values|
     binding.pry
       value_hash.each do |info|
         age += info["age"].to_i
